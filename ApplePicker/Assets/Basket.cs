@@ -22,7 +22,7 @@ public class Basket : MonoBehaviour
         pos.x = MousePos3D.x;
         this.transform.position = pos;
     }
-    void OnCollisionEnter( Collision coll)
+    void OnCollisionEnter(Collision coll)
     {
         GameObject collidedWith = coll.gameObject;
         if (collidedWith.CompareTag("Apple"))

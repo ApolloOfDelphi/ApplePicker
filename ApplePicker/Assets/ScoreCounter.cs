@@ -11,7 +11,7 @@ public class ScoreCounter : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        uiText = GetComponent<Text>(); 
+        uiText = GetComponent<Text>();
     }
 
     // Update is called once per frame
